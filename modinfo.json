@@ -33,6 +33,10 @@
 	],
 	"category":
 	[
-		"biomes"
+		"ui",
+		"titans",
+		"in-game",
+		"particles",
+		"effects"
 	]
 }
