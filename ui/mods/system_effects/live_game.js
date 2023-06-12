@@ -205,11 +205,11 @@ handlers.systemEffect = function(payload){
 	//currentSystemEffects is basically a record of the active effects they had in case of restart/refresh, it will be checked against actual effects in a delayed function and then spawn them
 	
 	
-	//if(model.currentSystemEffects()[payload.planetId] == undefined){
+	if(model.currentSystemEffects()[payload.planetId] == undefined){
 	model.currentSystemEffects()[payload.planetId] = payload;
 	localStorage.currentSystemEffects = JSON.stringify(model.currentSystemEffects());
 	model.createPuppet(payload.settings,payload.planetId,payload.location);
-	//}
+	}
 	
 }
 

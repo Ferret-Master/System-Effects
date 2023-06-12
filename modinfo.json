@@ -1,15 +1,15 @@
 {
 
-	"build": "109959",
+	"build": "116931",
 	"context": "server",
-	"date": "2022-08-01",
+	"date": "2023-06-05",
 	"display_name": "System Effects",
 	"description": "Adds effects to planets/the system, customizable.",
-	"forum": "",
+	"forum": "https://steamcommunity.com/app/386070/discussions/0/3814032755166341499/",
 	"identifier": "com.pa.ferretmaster.system-effects",
 	"signature": "not yet implemented",
 	"version": "1.0",
-	"icon": "",
+	"icon":"https://github.com/Ferret-Master/System-Effects/blob/main/icon.png?raw=true",
 	
     "author": "Ferretmaster",
     "priority": 100,
